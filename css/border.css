@@ -1,0 +1,29 @@
+/* Уменьшение закругления для всех элементов с border-radius */
+.btn,
+.btn-gradient,
+.form-control,
+.Cabinet_item__anEsE,
+.navbar,
+select,
+input,
+.Cabinet_itemInput__9mTHF,
+.dropdown-menu,
+.navbar-toggler {
+    border-radius: 5px !important; /* Уменьшенное значение закругления */
+}
+
+/* Если нужно полностью убрать закругление, используйте значение 0 */
+/* 
+.btn,
+.btn-gradient,
+.form-control,
+.Cabinet_item__anEsE,
+.navbar,
+select,
+input,
+.Cabinet_itemInput__9mTHF,
+.dropdown-menu,
+.navbar-toggler {
+    border-radius: 0 !important;
+}
+*/
